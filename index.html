@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+<div class="container">
+  <div class="content">
+    <div class="inp">
+      <label for="day"><small>DAY</small></label>
+      <input id="day" type="number" class="nbr" placeholder="DD" required>
+      <span><small class="err-day"></small></span>
+      <label for="day"><small>MONTH</small></label>
+      <input id="month" type="number" class="nbr" placeholder="MM" required>
+      <span><small class="err-month"></small></span>
+      <label for="day"><small>YEARS</small></label>
+      <input id="year" type="number" class="nbr" placeholder="YY" required>
+      <span><small class="err-year"></small></span>
+    </div>
+   <div>
+    <button class="btn">
+      <img src="./assets/images/icon-arrow.svg" alt="">
+    </button>
+    <hr>
+   </div>
+   <main>
+    <div><span class="outyear">- -</span>years</div>
+    <div><span class="outmonth">- -</span>months</div>
+    <div><span class="outday">- -</span>days</div>
+   </main>
+  </div>
+</div>
+
+<script src="./app.js"></script>
+  
+</body>
+</html>
